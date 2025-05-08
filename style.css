@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 120px;
+    background-color: rgb(0, 210, 198);
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 1700px;
+    z-index: 5;
+}
+
+.image {
+    width: 90px;
+    height: 100px;
+}
+
+body {
+    margin: 0;
+    font-family: "Korolev", sans-serif;
+}
+
+.div1 {
+    width: 700px;
+    display: flex;
+    text-align: right;
+    margin-left: 700px;
+    margin-top: 20px;
+    
+}
+
+.nav_menu {
+    text-align: right;
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+
+
+}
+.nav_menu:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+.div1 li {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.nav_header{
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+.logo1 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.section_1{
+    position:relative;
+    width: 100%;
+    height: 728px;
+}
+
+.image_1 {
+    width: 1512px;
+    height: 728px;
+    /* margin-top: 120px; */
+    /* background-image: url("image/1.webp"); */
+
+}
+
+.content_1{
+    position: absolute;
+    top: 260px;
+    left: 80px;
+}
+
+.content_1 h1{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family:korolev-heavy;
+    font-size:80px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.content_1 button{
+    width: 173px;
+    height: 41px;
+    background:transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 27px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.section_2{
+    position: relative;
+    width: 100%;
+    height: 728px;
+}
+
+.image_2 {
+
+    width: 1512px;
+    height: 728px;
+}
+
+.content_2{
+    position: absolute;
+    top: 53.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 685px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+}
+
+@font-face{
+    font-family: korolev-heavy;
+    src: url(font/Korolev\ Heavy.woff);
+}
+
+.content_2 h1{
+    font-size: 36px;
+    margin: 20px 0px 10px;
+    text-transform: uppercase;
+}
+
+.content_2 p{
+    font-size: 17px;
+    margin: 0px 0px 20px;
+    padding: 6px 25px;
+}
+
+.content_2 button{
+    background: transparent;
+    color: white;
+    font-size: 19px;
+    padding: 7px 36px;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.section_3{
+    position: relative;
+    width: 100%;
+    height: 728px;
+}
+
+.image_3 {
+    width: 1512px;
+    height: 728px;
+    /* position: relative; */
+
+
+}
+
+.content_3{
+    position: absolute;
+    top: 53.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 685px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+}
+
+.content_3 h1{
+    font-size: 36px;
+    margin: 20px 0px 10px;
+    text-transform: uppercase;
+}
+
+.content_3 p{
+    font-size: 16px;
+    font-family: korolev-medium;
+    margin: 0px 0px 20px;
+    padding: 6px 25px;
+}
+
+
+.content_3 button{
+    background: transparent;
+    color: white;
+    font-size: 19px;
+    padding: 6px 35px;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+.footer {
+    background-color: #3e3e3e;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    font-family: 'korolev';
+    padding: 0 15px 48px;
+    font-size: 14px;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display:flex;
+    margin-top: 12px;
+    margin-bottom: 15px;
+
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+
+}
+
+.footer_a {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
